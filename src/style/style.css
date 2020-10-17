@@ -1,0 +1,46 @@
+
+.App {
+    text-align: center;
+}
+
+.livre{
+    border: 2px solid black;
+}
+
+
+.infoBook{
+    font-weight: bolder;
+}
+
+#titre{
+    font-size: xx-large;
+    font-family: "Arial Rounded MT Bold" ,sans-serif;
+    background-color: black;
+}
+#infosup:hover{
+    border: green;
+}
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+#background{
+    background: url("https://images.unsplash.com/photo-1490332695540-5acc256ec383?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    border-radius: 5px;
+    background-attachment: fixed;
+}
+
+body{
+    background-color: darkgray;
+}
+#error{
+    text-align: center;
+}
+#img{
+    box-shadow: 8px 8px 12px #aaa;
+
+}#img:hover{
+    box-shadow: 8px 8px 12px #aaa;
+    transform: translateY(5px);
+}
